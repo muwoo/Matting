@@ -81,7 +81,7 @@ class Matting {
               isPNG = false
               return false
             }
-            return numerical > parseInt(selfImageData[index]) - 20 && numerical < parseInt(selfImageData[index]) + 20// 去掉边缘色
+            return numerical > parseInt(selfImageData[index]) && numerical < parseInt(selfImageData[index])// 去掉边缘色
           }
 
           if ([r, g, b].every(isIn)) {
