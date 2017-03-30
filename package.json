@@ -1,0 +1,17 @@
+{
+  "name": "matt",
+  "version": "1.0.0",
+  "description": "Solid background pictures to Transparent background pictures",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "monkeyWangs",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "path": "^0.12.7",
+    "webpack": "^2.3.2"
+  }
+}

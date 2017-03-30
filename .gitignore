@@ -1,0 +1,25 @@
+.DS_Store
+node_modules/
+npm-debug.log
+.idea
+.editorconfig
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+.project
+.classpath
+.settings
+.pydevproject
+target
+.DS_Store
+
+logs
+*.log
+bin
+
+# idea #
+.idea
+*.iml
